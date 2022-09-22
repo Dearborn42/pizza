@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,17 +18,107 @@
         h1 {
             text-align: center;
         }
-    
+
         h2 {
             text-align: center;
         }
-    
+
         form {
             text-align: center;
         }
     </style>
 </head>
+
 <body>
-    
+    <h1>Pepperoni Pizza</h1>
+    <p>Murphy's pepperoni pizza is an all time classic plus anything else you want</p>
+    <legend>Crust</legend>
+    <fieldset>
+        <ul>
+            <input type="radio" id="thin" name="crust">
+            <label for="thin">Thin crust</label>
+            <br>
+            <input type="radio" id="thick" name="crust">
+            <label for="thick">Thick crust</label>
+            <br>
+            <input type="radio" id="stuffed" name="crust">
+            <label for="stuffed">Stuffed crust</label>
+        </ul>
+    </fieldset>
+    <br>
+    <legend>Sauce</legend>
+    <fieldset>
+        <ul>
+            <input type="radio" id="tomato" name="sauce">
+            <label for="tomato">Tomato sauce</label>
+            <br>
+            <input type="radio" id="pesto" name="sauce">
+            <label for="pesto">Pesto sauce</label>
+            <br>
+            <input type="radio" id="creamyAlfredo" name="sauce">
+            <label for="reamyAlfredo">Creamy Alfredo sauce</label>
+            <br>
+            <input type="radio" id="BBQ" name="sauce">
+            <label for="BBQ">BBQ sauce</label>
+        </ul>
+    </fieldset>
+    <br>
+    <legend>Cheese</legend>
+    <fieldset>
+        <ul>
+            <input type="radio" id="mozzarella" name="cheese">
+            <label for="mozzarella">Mozzarella cheese</label>
+            <br>
+            <input type="radio" id="parmesan" name="cheese">
+            <label for="parmesan">Parmesan cheese</label>
+            <br>
+            <input type="radio" id="gouda" name="cheese">
+            <label for="gouda">Gouda cheese</label>
+            <br>
+            <input type="radio" id="goat" name="cheese">
+            <label for="goat">Goat cheese</label>
+        </ul>
+    </fieldset>
+    <br>
+    <legend>Meats</legend>
+    <fieldset>
+        <ul>
+            <br>
+            <input type="checkbox" id="ham" name="meat">
+            <label for="ham">Ham</label>
+            <br>
+            <input type="checkbox" id="sausage" name="meat">
+            <label for="sausage">Sausage</label>
+            <br>
+            <input type="checkbox" id="bacon" name="meat">
+            <label for="bacon">Bacon</label>
+            <br>
+            <input type="checkbox" id="Prosciutto" name="meat">
+            <label for="Prosciutto">Prosciutto</label>
+            <br>
+            <input type="checkbox" id="Chicken" name="meat">
+            <label for="Chicken">Chicken</label>
+        </ul>
+    </fieldset>
+    <br>
+    <legend>Vegetables</legend>
+    <fieldset>
+        <ul>
+            <input type="checkbox" id="pepper" name="veggies">
+            <label for="pepper">Bell pepper</label>
+            <br>
+            <input type="checkbox" id="olives" name="veggies">
+            <label for="olives">Olives</label>
+            <br>
+            <input type="checkbox" id="zucchini" name="veggies">
+            <label for="zucchini">Zucchini</label>
+            <br>
+            <input type="checkbox" id="arugula" name="veggies">
+            <label for="arugula">Arugula</label>
+        </ul>
+        <br>
+    </fieldset>
+    <input type="submit">
 </body>
+
 </html>
