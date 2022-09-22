@@ -26,7 +26,6 @@
     fieldset{
       background-color: orange;
       border: solid 2px blue; 
-      display: inline-block;
     }
     
 </style>
@@ -34,8 +33,37 @@
 <body>
     <h1>Murphy's Pizza</h1>
     <br>
+    <legend>Login</legend>
+    <fieldset>
+        <ul>
+            <label for="user">Username</label>
+            <input type="text" id="user" name="Username">
+            <br>
+            <label for="pass">Password</label>
+            <input type="password" id="pass" name="Password">
+        </ul>
+    </fieldset>
+    <br>
     <h2>Order</h2>
-    <form>
+    <legend>Drinks</legend>
+    <fieldset>
+        <ul>
+            <input type="checkbox" id="diet">
+            <label for="diet">Diet</label>
+            <br>
+            <input type="radio" id="Coca-cola" name="drinks">
+            <label for="Coca-cola">Coca-cola</label>
+            <br>
+            <input type="radio" id="Dr.pepper" name="drinks">
+            <label for="Dr.pepper">Dr.pepper</label>
+            <br>
+            <input type="radio" id="Pepsi" name="drinks">
+            <label for="Pepsi">Pepsi</label>
+            <br>
+            <input type="radio" id="Root-beer" name="drinks">
+            <label for="Root-beer">Root-beer</label>
+        </ul>
+    </fieldset>
         <legend>Preset Pizzas</legend>
         <fieldset>
             <ul>
@@ -66,11 +94,14 @@
                 <a href="buffaloPizza.html">
                     <input type="button" id="BuffaloPizza" value="Buffalo Pizza"/>
                 </a>
-                <br>
-                <a href="customPizza.html">
-                <input type="button" id="CustomPizza" value="Custom Pizza">
-                </a>
             </ul>
+        </fieldset>
+        <br>
+        <legend>Custom Pizza</legend>
+        <fieldset>
+            <a href="customPizza.html">
+                 <input type="button" id="CustomPizza" value="Custom Pizza">
+             </a>
         </fieldset>
 </body>
 </html>
